@@ -6,36 +6,56 @@
     <title>钱有鹏的简历</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            background-color: #f4f4f4;
+            background: linear-gradient(135deg, #8e9eab, #eef2f3); /* 整体背景渐变 */
             color: #333;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
+            max-width: 900px;
+            margin: 30px auto;
+            background: linear-gradient(135deg, #ffffff, #f7f7f7); /* 内容区域的背景为柔和渐变色 */
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.02); /* 添加平滑放大效果 */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
         h1, h2, h3 {
-            color: #444;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            color: #1d3557;
+        }
+        h2 {
+            border-bottom: 2px solid #1d3557;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
         }
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
         ul {
             padding-left: 20px;
+            list-style-type: disc;
         }
         a {
-            color: #007bff;
+            color: #1d3557;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+            color: #457b9d;
+        }
+        p {
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -82,6 +102,12 @@
                 <li>负责公司物联网上位机系统的研发，涉及 MQTT、Task、ADO.NET 等技术。</li>
                 <li>使用 WPF、MVVM 开发桌面客户端。</li>
                 <li>现场技术支持，包括摄像头与设备安装、调试等。</li>
+            </ul>
+
+            <p><strong>2022.5 - 2022.7</strong><br>深圳市然博网科技有限公司 | .NET 后端开发</p>
+            <ul>
+                <li>开发部 .NET 后端工程师，负责集运系统的维护与模块开发 (WinForm, ASP.NET, 公众号)。</li>
+                <li>使用技术：C#、JSON、SQL Server、ASP.NET MVC、Ajax、HTML、CSS、JavaScript、jQuery、SqlSugar、多线程。</li>
             </ul>
 
             <p><strong>2018.7 - 2018.8</strong><br>深圳市锐诺网络技术开发有限公司 | .NET 后端开发</p>
